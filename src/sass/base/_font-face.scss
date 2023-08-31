@@ -2,23 +2,23 @@
     font-family: "Montserrat";
     font-weight: 700;
     font-display: swap;
-    src: url("public/fonts/montserrat-bold-webfont.woff") format("woff2"),
-      url("public/fonts/montserrat-bold-webfont.woff2") format("woff");
+    src: url("/fonts/montserrat-bold-webfont.woff") format("woff2"),
+      url("/fonts/montserrat-bold-webfont.woff2") format("woff");
 }
 
 @font-face {
     font-family: "Inter";
     font-weight: 700;
     font-display: swap;
-    src: url("public/fonts/inter-bold-webfont.woff") format("woff2"),
-      url("public/fonts/inter-bold-webfont.woff2") format("woff");
+    src: url("/fonts/inter-bold-webfont.woff") format("woff2"),
+      url("/fonts/inter-bold-webfont.woff2") format("woff");
 }
 
 @font-face {
     font-family: "Inter";
     font-weight: 400;
     font-display: swap;
-    src: url("public/fonts/inter-regular-webfont.woff") format("woff2"),
-      url("public/fonts/inter-regular-webfont.woff2") format("woff");
+    src: url("/fonts/inter-regular-webfont.woff") format("woff2"),
+      url("/fonts/inter-regular-webfont.woff2") format("woff");
 }
   

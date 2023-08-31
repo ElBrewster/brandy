@@ -16,5 +16,8 @@
     "typescript": "^5.0.2",
     "vite": "^4.4.5",
     "vite-plugin-html-purgecss": "^0.1.1"
+  },
+  "dependencies": {
+    "vite-plugin-purgecss": "^0.2.12"
   }
 }
