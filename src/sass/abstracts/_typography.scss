@@ -1,8 +1,10 @@
-$-ff-sans: system-ui, sans-serif;
-$-ff-serif: serif;
+$-ff-sans: Inter, sans-serif;
+$-ff-sans2: Montserrat, sans-serif;
+// $-ff-serif: serif;
 
 $font-family-base: $-ff-sans;
 $font-family-accent: $-ff-sans;
+// $font-family-accent: $-ff-sans;
 
 $font-sizes: (
   "small": (
