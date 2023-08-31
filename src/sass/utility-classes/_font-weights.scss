@@ -1,0 +1,11 @@
+@use "../abstracts/" as *;
+// if you want to make a map for this you can, but KP tends to do it manually
+// most projects have a really limited amount of font-weights being used
+
+.fw-regular {
+  font-weight: $font-weight-default;
+}
+
+.fw-bold {
+  font-weight: $font-weight-bold;
+}

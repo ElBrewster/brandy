@@ -1,0 +1,14 @@
+
+header.hero {
+    display: grid;
+    grid-template-areas: "hero";
+    //we set a single template area which creates a single named grid cell and becomes a canvas when using grid
+}
+
+header.hero > * {
+    grid-area: hero;
+    //this assigns all of the hero's children to the canvas/template area
+}
+
+// header > div.hero__content > h1 & p & a
+// header > img
