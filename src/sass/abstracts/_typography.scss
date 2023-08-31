@@ -1,10 +1,8 @@
 $-ff-sans: "Montserrat", sans-serif;
 $-ff-sans2: "Inter", sans-serif;
-// $-ff-serif: serif;
 
 $font-family-base: $-ff-sans;
 $font-family-accent: $-ff-sans2;
-// $font-family-accent: $-ff-sans;
 
 $font-sizes: (
   "small": (
@@ -39,19 +37,8 @@ $font-size-800: var(--fs-800);
 $font-size-900: var(--fs-900);
 
 $-fw-400: 400;
-$-fw-500: 500;
 $-fw-700: 700;
 
 $font-weight-default: $-fw-400;
-$font-weight-semi-bold: $-fw-500;
 $font-weight-bold: $-fw-700;
 
-//--saving for font size clamp---------------------------------------
-// $font-sizes: (
-//   900: clamp(2.5rem, .5rem + 10vw, 5rem),
-//   800: clamp(2.5rem, .5rem + 7vw, 3.75rem),
-//   600: clamp(1.4rem, 0.5rem + 3vw, 1.6875rem),
-//   500: 1.3125rem,
-//   400: 1.125rem,
-//   300: 1rem,
-// );

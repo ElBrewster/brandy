@@ -4,10 +4,6 @@
 @use 'sizes' as *;
 
 $prefix: "elb";
-//ignore base files because they are unlikely to change and,
-//don't prefix your element selectors!
-//you can change the prefix to anything, like a project name
-//a prefix can help if you're adding to legacy code or moving a system over and you need to keep track of what's changed. Also helps with big teams
 
 $active-theme: $light;
 $enable-media-query-dark-mode: false;
