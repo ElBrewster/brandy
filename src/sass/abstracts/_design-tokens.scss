@@ -9,36 +9,22 @@ $active-theme: $light;
 $enable-media-query-dark-mode: false;
 
 // Contextual
-$color-text-default: $color-primary-700;
-$color-background-default: $color-primary-100;
-$color-text-interactive-default: $color-accent-400;
-$color-text-interactive-hover: $color-accent-500;
+$color-text-default: $color-neutral-700;
+$color-background-default: $color-neutral-000;
+
+$color-text-interactive-default: $color-primary-600;
+$color-text-interactive-hover: $color-accent-800;
 
 // set to 0 to disable:
-$letter-spacing-loose: 0.16em;
+$letter-spacing-loose: 0;
 
-$border-radius-1: $size-2;
-$border-radius-2: $size-4;
-
-$box-shadow-1: 0px 6px 5px rgb(0, 0, 0, 0.012),
-  0px 22px 18px rgb(0, 0, 0, 0.018), 0px 100px 80px rgb(0, 0, 0, 0.03);
-
-$box-shadow-2: 0px 6px 5px rgb(0, 0, 0, 0.016),
-  0px 22px 18px rgb(0, 0, 0, 0.024), 0px 100px 80px rgb(0, 0, 0, 0.04);
-
-$box-shadow-3: 0px 6px 5px rgb(0, 0, 0, 0.02), 0px 22px 18px rgb(0, 0, 0, 0.03),
-  0px 100px 80px rgb(0, 0, 0, 0.05);
-
-$box-shadow-4: 0px 6px 5px rgb(0, 0, 0, 0.03), 0px 22px 18px rgb(0, 0, 0, 0.042),
-  0px 100px 80px rgb(0, 0, 0, 0.07);
-
-$box-shadow-5: 0px 6px 5px rgb(0, 0, 0, 0.04), 0px 22px 18px rgb(0, 0, 0, 0.06),
-  0px 100px 80px rgb(0, 0, 0, 0.1);
+$border-radius-1: $size-4;
+$border-radius-2: $size-1;
 
 // Body
 $body-font-family: $font-family-base;
-$body-font-size: $font-size-400;
-$body-line-height: 1.5;
+$body-font-size: $font-size-500;
+$body-line-height: 1.7;
 $body-font-weight: $font-weight-default;
 $body-text-color: $color-text-default;
 $body-background-color: $color-background-default;
@@ -46,40 +32,38 @@ $body-background-color: $color-background-default;
 $link-color: $color-text-interactive-default;
 $link-color-hover: $color-text-interactive-hover;
 
-$heading-font-family: $font-family-accent;
-$heading-color-default: $body-text-color;
+$heading-font-family: $font-family-base;
+$heading-color-default: $color-primary-800;
 $heading-font-weight: $font-weight-bold;
 $heading-letter-spacing: $letter-spacing-loose;
 $heading-line-height: 1;
-$heading-text-transform: uppercase;
+$heading-text-transform: none;
 
-$heading-1-font-size: $font-size-900;
+$heading-1-font-size: $font-size-700;
 $heading-1-color: $heading-color-default;
-$heading-2-font-size: $font-size-800;
-$heading-2-color: $heading-color-default;
-$heading-3-font-size: $font-size-700;
-$heading-3-color: $heading-color-default;
+$heading-2-font-size: $font-size-700;
+$heading-2-color: $color-primary-100;
 
 // Layout
-$grid-gap: $size-6;
-$flex-group-gap: $size-4;
+$grid-gap: $size-9;
+$flex-group-gap: $size-11;
 
-$hero-padding-block: clamp(15rem, 15vh, 20rem);
-$section-padding-block: clamp(3rem, 10vh, 7rem);
-
-$container-min-margin-inline: $size-4;
+$section-padding-block: $size-12;
+$hero-padding-block: $section-padding-block;
+//-->consider adding clamp to these padding/padding blocks
+$container-min-margin-inline: $size-12;
 $container-max-width: 60rem;
 $container-max-width-narrow: 40rem;
 $container-max-width-wide: 75rem;
 
 // site header
-$site-header-background-color: $color-primary-300;
-$site-header-color: $color-neutral-900;
-$site-header-padding: $size-8 0;
+$site-header-background-color: $color-background-default;
+$site-header-color: $color-primary-800;
+$site-header-padding: 0;
 $site-header-margin: 0;
-$site-header-jusitifcation-small-screens: center;
-$site-header-jusitifcation-large-screens: space-between;
-$site-header-alignment: center;
+// $site-header-jusitifcation-small-screens: center;
+// $site-header-jusitifcation-large-screens: space-between;
+// $site-header-alignment: center;
 
 //navigation
 $navigation-color: $site-header-color;
@@ -128,6 +112,7 @@ $card-font-family: $body-font-family;
 $card-line-height: 1.25;
 $card-heading-color-default: $card-color-default;
 $card-heading-font-size: $font-size-600;
+// $card-body-padding: clamp(2rem, 3.5vw, 5rem);
 
 // forms
 $form-label-color: $body-text-color;
@@ -151,3 +136,9 @@ $form-placeholder-font-weight: $form-input-font-weight;
 $form-placeholder-font-size: $body-font-size;
 
 $form-group-spacing: 0.5rem;
+
+// --under consideration---------------------------------------------
+
+$container-inline-padding: 1rem;
+$container-max-width: 60rem;
+$container-max-width-wide: 75rem;
