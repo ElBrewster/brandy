@@ -59,16 +59,19 @@ $container-max-width: 60rem;
 $container-max-width-narrow: 40rem;
 $container-max-width-wide: 75rem;
 
+// logo
+$logo-fill-default: $color-accent-500;
+$logo-size-default: $size-11;
 // site header
 $site-header-background-color: $color-primary-100;
 $site-header-color: $color-primary-800;
 $site-header-padding: 0;
 $site-header-margin: 0;
-// $site-header-jusitifcation-small-screens: center;
-// $site-header-jusitifcation-large-screens: space-between;
-// $site-header-alignment: center;
+$site-header-jusitifcation-small-screens: center;
+$site-header-jusitifcation-large-screens: space-between;
+$site-header-alignment: center;
 
-//navigation
+// navigation
 $navigation-color: $site-header-color;
 $navigation-color-hover: $link-color-hover;
 $navigation-font-size: $font-size-400;

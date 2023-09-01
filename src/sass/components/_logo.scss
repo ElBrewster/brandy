@@ -1,0 +1,6 @@
+@use "../abstracts/" as *;
+
+.logo {
+    fill: $logo-fill-default;
+    max-width: $logo-size-default;
+}
