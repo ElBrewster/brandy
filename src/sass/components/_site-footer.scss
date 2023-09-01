@@ -14,4 +14,9 @@
       color: $footer-link-color-hover;
     }
   }
+
+  small {
+    font-family: $footer-fine-print-family;
+    font-size: $footer-fine-print;
+  }
 }

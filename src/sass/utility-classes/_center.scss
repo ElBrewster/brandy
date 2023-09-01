@@ -1,4 +1,7 @@
+@use "../abstracts/" as *;
+
 .center {
     display: grid;
+    gap: $grid-gap;
     place-content: center;
 }
