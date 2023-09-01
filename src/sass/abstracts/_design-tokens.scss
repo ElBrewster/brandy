@@ -82,7 +82,7 @@ $navigation-font-family: $body-font-family;
 $navigation-font-weight: $font-weight-default;
 
 // site footer
-$footer-background-color: $color-primary-100;
+$footer-background-color: $color-background-default;
 $footer-text-color: $body-text-color;
 $footer-link-color: $body-text-color;
 $footer-link-color-hover: $link-color-hover;
@@ -90,6 +90,8 @@ $footer-link-font-family: $body-font-family;
 $footer-link-text-decoration: none;
 $footer-fine-print: $font-size-200;
 $footer-fine-print-family: $body-font-family;
+
+$hr-color: $color-neutral-100;
 
 // Buttons
 $button-border: 0;
