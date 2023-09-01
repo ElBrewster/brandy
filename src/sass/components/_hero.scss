@@ -1,13 +1,18 @@
 @use "../abstracts/" as *;
 .hero {
+    align-items: center;
     display: flex;
     gap: $size-11;
-    
+    justify-content: center;
+    // margin-inline: $hero-margin-inline;
+    padding-block: $hero-padding-block;
+
     .container-text {
         display: flex;
         flex-direction: column;
         gap: $size-4;
         justify-content: space-between;
+        max-width: 490px;
         padding-block: $hero-text-padding-block;
 
         .hero__heading {

@@ -8,7 +8,7 @@ $prefix: "elb";
 $active-theme: $light;
 $enable-media-query-dark-mode: false;
 
-// Contextual
+// contextual
 $color-text-default: $color-neutral-700;
 $color-background-default: $color-neutral-000;
 
@@ -21,8 +21,9 @@ $letter-spacing-loose: 0;
 $border-radius-1: $size-4;
 $border-radius-2: $size-1;
 $border-radius-3: $size-3;
+$border-radius-about: 1000px;
 
-// Body
+// body
 $body-font-family: $font-family-base;
 $body-font-size: $font-size-500;
 $body-line-height: 1.7;
@@ -45,7 +46,7 @@ $heading-1-color: $heading-color-default;
 $heading-2-font-size: $font-size-700;
 $heading-2-color: $color-primary-100;
 
-// Layout
+// layout
 $grid-gap: $size-9;
 $flex-group-gap: $size-11;
 
@@ -89,6 +90,15 @@ $span-accent-font-color: $color-accent-600;
 $hero-line-height: 108.9%;
 $hero-image-border-radius: $border-radius-1;
 $hero-text-padding-block: $size-11;
+$hero-padding-block: $size-14;
+$hero-margin-inline: $size-15;
+
+// about box component
+$image-border-radius-upleft: $border-radius-about;
+$image-border-radius-upright: $border-radius-about;
+$about-image-background: $color-primary-200;
+$about-background: $color-primary-800;
+$about-text-color: $color-neutral-000;
 
 // site footer
 $footer-background-color: $color-background-default;
@@ -102,7 +112,7 @@ $footer-fine-print-family: $body-font-family;
 
 $hr-color: $color-neutral-100;
 
-// Buttons
+// buttons
 $button-border: 0;
 $button-border-radius: $border-radius-2;
 $button-font-family: $font-family-base;
@@ -125,7 +135,7 @@ $button-accent-background-hover: $color-accent-200;
 $link-button-background-color: $color-neutral-100;
 $link-button-color: $color-primary-600;
 
-// Cards
+// cards
 $card-flow-spacing: $size-2;
 $card-spacing: $size-6;
 // $card-shadow: $box-shadow-1;

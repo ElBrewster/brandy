@@ -1,0 +1,31 @@
+@use "../abstracts/" as *;
+
+.box__about {
+    background-color: $about-background;
+    color: $about-text-color;
+    
+    .box__flex {
+        align-items: center;
+        display: flex;
+        gap: $size-11;
+        justify-content: center;
+
+        .box__text {
+            display: flex;
+            flex-direction: column;
+            gap: $size-4;
+            justify-content: space-between;
+            max-width: 481px;
+            padding-block: $hero-text-padding-block;
+        }
+        .about__image {
+            background-color: $about-image-background;
+            border-top-left-radius: $image-border-radius-upleft;
+            border-top-right-radius: $image-border-radius-upright;
+            height: 512px;
+            width: 406px;
+            object-fit: cover;
+            object-position: center;
+        }
+    }
+}
