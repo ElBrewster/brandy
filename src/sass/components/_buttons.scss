@@ -1,24 +1,43 @@
 @use "../abstracts/" as *;
 
-.#{$prefix} {
-  &-button {
-      display: inline-flex;
-      justify-content: center;
-      cursor: pointer;
-      text-decoration: none;
+.button {
+    display: inline-flex;
+    justify-content: center;
+    cursor: pointer;
+    text-decoration: none;
   
-      line-height: 1;
-      font-family: $button-font-family;
-      font-size: $button-font-size;
-      text-transform: $button-text-transform;
-      font-weight: $button-font-weight;
+    line-height: $button-line-height;
+    font-family: $button-font-family;
+    font-size: $button-font-size;
+    text-transform: $button-text-transform;
+    font-weight: $button-font-weight;
   
-      padding: $button-padding;
-      border: $button-border;
-      border-radius: $button-border-radius;
-      transition: 275ms ease;
+    padding: $button-padding;
+    border: $button-border;
+    border-radius: $button-border-radius;
+    transition: 275ms ease;
   
-      &[data-type="accent"] {
+    &[data-type="primary"] {
+      background-color: $button-primary-background;
+      color: $button-primary-color;
+      
+      &:is(:hover, :focus) {
+        background-color: $button-primary-background-hover;
+        color: $button-primary-color-hover;
+      }
+    }
+
+    &[data-type="link"] {
+      background-color: $body-background-color;
+      color: $link-button-color;
+      
+      &:is(:hover, :focus) {
+        background-color: $link-button-background-color;
+        color: $link-button-color;
+      }
+    }
+
+    &[data-type="accent"] {
         background-color: $button-accent-background;
         color: $button-accent-color;
     
@@ -26,17 +45,7 @@
           background-color: $button-accent-background-hover;
           color: $button-accent-color-hover;
         }
-      }
-      
-      &[data-type="primary"] {
-          background-color: $button-primary-background;
-          color: $button-primary-color;
-      
-          &:is(:hover, :focus) {
-            background-color: $button-primary-background-hover;
-            color: $button-primary-color-hover;
-          }
-        }
-  }
+    }
 }
+
 

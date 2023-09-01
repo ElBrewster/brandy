@@ -51,7 +51,6 @@ $flex-group-gap: $size-11;
 
 $section-padding-block: $size-12;
 $section-padding-block-mobile: $size-11;
-// $hero-padding-block: $section-padding-block;
 //-->consider adding clamp to these padding/padding blocks
 $container-min-margin-inline: $size-7;
 //margins on cell view are 1.625, so revisit ^
@@ -81,6 +80,16 @@ $navigation-link-text-decoration: none;
 $navigation-font-family: $body-font-family;
 $navigation-font-weight: $font-weight-default;
 
+// hero component
+$hero-font-color: $color-primary-800;
+$hero-heading-font-family: $font-family-accent;
+$hero-heading-font-size: $font-size-900;
+$hero-heading-font-weight: $heading-font-weight;
+$span-accent-font-color: $color-accent-600;
+$hero-line-height: 108.9%;
+$hero-image-border-radius: $border-radius-1;
+$hero-text-padding-block: $size-11;
+
 // site footer
 $footer-background-color: $color-background-default;
 $footer-text-color: $body-text-color;
@@ -96,9 +105,10 @@ $hr-color: $color-neutral-100;
 // Buttons
 $button-border: 0;
 $button-border-radius: $border-radius-2;
-$button-font-family: $font-family-accent;
+$button-font-family: $font-family-base;
 $button-font-size: $font-size-500;
-$button-font-weight: $font-weight-bold;
+$button-font-weight: $font-weight-default;
+$button-line-height: 170%;
 $button-padding: .5em 1em;
 $button-text-transform: none;
 
@@ -127,3 +137,4 @@ $card-line-height: 1.25;
 $card-heading-color-default: $card-color-default;
 $card-heading-font-size: $font-size-600;
 $card-body-padding: $size-7;
+$card-heading-accent: $color-accent-500;

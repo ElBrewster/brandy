@@ -1,14 +1,32 @@
+@use "../abstracts/" as *;
+.hero {
+    display: flex;
 
-header.hero {
-    display: grid;
-    grid-template-areas: "hero";
-    //we set a single template area which creates a single named grid cell and becomes a canvas when using grid
+    .container-text {
+        display: flex;
+        flex-direction: column;
+        gap: $size-4;
+        justify-content: space-between;
+        padding-block: $hero-text-padding-block;
+
+        .hero__heading {
+            color: $hero-font-color;
+            display: flex;
+            flex-direction: column;
+            font-family: $hero-heading-font-family;
+            font-size: $hero-heading-font-size;
+            font-weight: $hero-heading-font-weight;
+            line-height: $hero-line-height;
+
+            .span-accent {
+                color: $span-accent-font-color;
+                line-height: $hero-line-height;
+            }
+        }
+    }
+
+    &__image {
+        border-radius: $hero-image-border-radius;
+        max-width: 550px;
+    }
 }
-
-header.hero > * {
-    grid-area: hero;
-    //this assigns all of the hero's children to the canvas/template area
-}
-
-// header > div.hero__content > h1 & p & a
-// header > img

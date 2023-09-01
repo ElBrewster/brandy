@@ -15,6 +15,7 @@
     &__heading {
       @include heading($card-heading-font-size, $card-heading-color-default);
     }
+
   }
 }
 //read and implement: https://smolcss.dev/#smol-card-component
