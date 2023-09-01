@@ -49,8 +49,8 @@ $heading-2-color: $color-primary-100;
 $grid-gap: $size-9;
 $flex-group-gap: $size-11;
 
-$section-spacing: $size-12;
-$section-spacing-mobile: $size-11;
+$section-padding-block: $size-12;
+$section-padding-block-mobile: $size-11;
 // $hero-padding-block: $section-padding-block;
 //-->consider adding clamp to these padding/padding blocks
 $container-min-margin-inline: $size-7;
@@ -62,10 +62,11 @@ $container-max-width-wide: 75rem;
 // logo
 $logo-fill-default: $color-accent-500;
 $logo-size-default: $size-11;
+
 // site header
 $site-header-background-color: $color-primary-100;
 $site-header-color: $color-primary-800;
-$site-header-padding: 0;
+$site-header-padding-block: $size-8;
 $site-header-margin: 0;
 $site-header-jusitifcation-small-screens: center;
 $site-header-jusitifcation-large-screens: space-between;
