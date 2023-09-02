@@ -3,6 +3,7 @@
 @use "sass:map";
 @use "breakpoints" as *;
 @use "design-tokens" as *;
+@use "sizes" as *;
 @use "typography" as *;
 
 @mixin mq($size) {
@@ -43,4 +44,17 @@
   &:hover {
     color: $hover-color
   }
+}
+
+@mixin icon-card($background-clr) {
+  align-content: space-between;
+  background-color: $background-clr;
+  background-position: right;
+  background-repeat: no-repeat;
+  background-size: 50%;
+  border-radius: $grid-card-border-radius;
+  display: grid;
+  gap: $size-11;
+  padding: $grid-card-padding;
+
 }
