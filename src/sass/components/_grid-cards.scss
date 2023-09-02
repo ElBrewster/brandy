@@ -4,15 +4,23 @@
     display: grid;
 
     &__green-card {
-
+        background-color: $color-accent-200;
+        border-radius: $grid-card-border-radius;
+        padding: $grid-card-padding;
     }
     &__yellow-card {
-        
+        background-color: $color-extra-150;
+        border-radius: $grid-card-border-radius;
+        padding: $grid-card-padding;
     }
     &__pink-card {
-        
+        background-color: $color-extra-200;
+        border-radius: $grid-card-border-radius;
+        padding: $grid-card-padding;
     }
     &__blue-card {
-        
+        background-color: $color-extra-250;
+        border-radius: $grid-card-border-radius;
+        padding: $grid-card-padding;
     }
 }
