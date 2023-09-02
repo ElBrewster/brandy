@@ -2,21 +2,28 @@
 
 .link-1 {
   @include try-link(
-    $grid-link-pink
-  );
+    $grid-link-green,
+    $grid-link-green-hover
+    );
 }
+
 .link-2 {
   @include try-link(
-    $grid-link-yellow
+    $grid-link-yellow,
+    $grid-link-yellow-hover
   );
 }
+
 .link-3 {
   @include try-link(
-    $grid-link-green
+    $grid-link-pink,
+    $grid-link-pink-hover
   );
 }
+
 .link-4 {
   @include try-link(
-    $grid-link-blue
+    $grid-link-blue,
+    $grid-link-blue-hover
   );
 }
