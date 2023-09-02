@@ -46,12 +46,11 @@
   }
 }
 
-@mixin icon-card($background-clr) {
+@mixin icon-card($background-clr, $background-size: 50%) {
   align-content: space-between;
   background-color: $background-clr;
-  background-position: right;
   background-repeat: no-repeat;
-  background-size: 50%;
+  background-size: $background-size;
   border-radius: $grid-card-border-radius;
   display: grid;
   gap: $size-11;
