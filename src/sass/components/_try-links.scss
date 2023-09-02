@@ -1,0 +1,22 @@
+@use '../abstracts/' as *;
+
+.link-1 {
+  @include try-link(
+    $grid-link-pink
+  );
+}
+.link-2 {
+  @include try-link(
+    $grid-link-yellow
+  );
+}
+.link-3 {
+  @include try-link(
+    $grid-link-green
+  );
+}
+.link-4 {
+  @include try-link(
+    $grid-link-blue
+  );
+}
