@@ -3,11 +3,12 @@
 .box__about {
     background-color: $about-background;
     color: $about-text-color;
+    padding-top: 1.25rem;
     
     .box__flex {
         align-items: center;
         display: flex;
-        gap: $size-11;
+        gap: $size-12;
         justify-content: center;
 
         .box__text {
@@ -17,6 +18,16 @@
             justify-content: space-between;
             max-width: 481px;
             padding-block: $hero-text-padding-block;
+
+            h2 {
+                color: $heading-2-color;
+                font-family: $font-family-accent;
+                font-size: $heading-2-font-size;
+            }
+
+            .about-bold {
+                font-weight: $font-weight-bold;
+            }
         }
         .about__image {
             background-color: $about-image-background;

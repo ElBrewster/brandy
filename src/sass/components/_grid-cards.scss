@@ -1,0 +1,18 @@
+@use "../abstracts/" as *;
+
+.grid-cards {
+    display: grid;
+
+    &__green-card {
+
+    }
+    &__yellow-card {
+        
+    }
+    &__pink-card {
+        
+    }
+    &__blue-card {
+        
+    }
+}

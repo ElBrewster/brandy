@@ -45,6 +45,8 @@ $heading-1-font-size: $font-size-700;
 $heading-1-color: $heading-color-default;
 $heading-2-font-size: $font-size-700;
 $heading-2-color: $color-primary-100;
+$heading-3-font-size: $font-size-650;
+$heading-3-color: $heading-color-default;
 
 // layout
 $grid-gap: $size-9;
@@ -148,3 +150,11 @@ $card-heading-color-default: $card-color-default;
 $card-heading-font-size: $font-size-600;
 $card-body-padding: $size-7;
 $card-heading-accent: $color-accent-500;
+
+// custom grid component
+
+$grid-card-padding: $size-6;
+// $grid-card-heading-size: $heading-3-font-size;
+// $grid-card-heading-color: $heading-3-color;
+// ^ just use utility class .heading-3 ?
+$grid-card-border-radius: $border-radius-1;
