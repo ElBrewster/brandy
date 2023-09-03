@@ -5,10 +5,22 @@
     color: $segment-color;
 
     &__spacing {
+        display: flex;
+        gap: $segment-flex-gap;
+
         
     }
+    &__text-box {
+        display: flex;
+        flex-direction: column;
+        gap: $size-4;
+        justify-content: center;
+    }
+
     &__image {
         background-color: $segment-image-background-color;
+        height: 400px;
+        width: 400px;
     }
 }
 

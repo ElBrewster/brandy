@@ -12,6 +12,7 @@
         justify-content: center;
 
         .box__text {
+            align-items: flex-start;
             display: flex;
             flex-direction: column;
             gap: $size-4;
