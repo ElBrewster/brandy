@@ -1,0 +1,11 @@
+@use "../abstracts/" as *;
+
+.segment {
+    background-color: $segment-background-color;
+    color: $segment-color;
+}
+
+.segment-inverse {
+    background-color: $segment-background-color-inverse;
+    color: $segment-color-inverse;
+}
