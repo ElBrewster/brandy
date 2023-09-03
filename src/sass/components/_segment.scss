@@ -37,9 +37,30 @@
         display: flex;
         gap: $segment-flex-gap;
 
-        &__list {
+        &__left {
             display: flex;
+            flex-direction: column;
+            flex-basis: 1;
             gap: $flex-group-gap;
+            
+            .list-container {
+                display: flex;
+                flex-direction: column;
+                font-family: $font-family-accent;
+                font-size: $segment-list-font-size;
+                
+                .checkmark-empty {
+                    background-color: green;
+                    stroke: white;
+                }
+            }
+
+        }
+
+        &__right {
+            display:block;
+            font-family: $font-family-base;
+            width: 400px;
         }
     }
 }
