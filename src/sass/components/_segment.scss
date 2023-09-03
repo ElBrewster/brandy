@@ -3,6 +3,10 @@
 .segment {
     background-color: $segment-background-color;
     color: $segment-color;
+
+    &__image {
+        background-color: $segment-image-background-color;
+    }
 }
 
 .segment-inverse {

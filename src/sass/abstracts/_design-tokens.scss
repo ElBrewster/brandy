@@ -21,7 +21,7 @@ $letter-spacing-loose: 0;
 $border-radius-1: $size-4;
 $border-radius-2: $size-1;
 $border-radius-3: $size-3;
-$border-radius-about: 1000px;
+$border-radius-4: 1000px;
 
 // body
 $body-font-family: $font-family-base;
@@ -97,17 +97,18 @@ $hero-padding-block: $size-14;
 $hero-margin-inline: $size-15;
 
 // about box component
-$image-border-radius-upleft: $border-radius-about;
-$image-border-radius-upright: $border-radius-about;
+$image-border-radius-upleft: $border-radius-4;
+$image-border-radius-upright: $border-radius-4;
 $about-image-background: $color-primary-200;
 $about-background: $color-primary-800;
 $about-text-color: $color-primary-100;
 
 // segment component & inverse (& white?)
-$segment-color: $color-primary-800;
+$segment-color: $color-neutral-600;
 $segment-color-inverse: $color-primary-100;
 $segment-background-color: $color-primary-100;
 $segment-background-color-inverse: $color-primary-800;
+$segment-image-background-color: $color-neutral-100;
 
 // site footer
 $footer-background-color: $color-background-default;
