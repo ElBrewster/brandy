@@ -7,9 +7,8 @@
     &__spacing {
         display: flex;
         gap: $segment-flex-gap;
-
-        
     }
+
     &__text-box {
         display: flex;
         flex-direction: column;
@@ -33,4 +32,9 @@
 .segment-inverse {
     background-color: $segment-background-color-inverse;
     color: $segment-color-inverse;
+    
+    &__spacing {
+        display: flex;
+        gap: $segment-flex-gap;
+    }
 }
