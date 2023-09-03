@@ -53,6 +53,7 @@ $heading-3-bottom-padding: $size-4;
 $grid-gap: $size-9;
 $flex-group-gap: $size-11;
 $text-box-gap: $size-4;
+$flex-row-gap: $size-12;
 
 $section-padding-block: $size-12;
 $section-padding-block-mobile: $size-11;
@@ -111,7 +112,7 @@ $segment-color-inverse: $color-primary-100;
 $segment-background-color: $color-primary-100;
 $segment-background-color-inverse: $color-primary-800;
 $segment-image-background-color: $color-primary-200;
-$segment-flex-gap: $size-12;
+$segment-flex-gap: $flex-row-gap;
 $segment-text-box-gap: $text-box-gap;
 
 // site footer
