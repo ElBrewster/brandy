@@ -4,7 +4,6 @@
     display: flex;
     gap: $size-11;
     justify-content: space-between;
-    // margin-inline: $hero-margin-inline;
     padding-block: $hero-padding-block;
 
     .container-text {
@@ -37,5 +36,29 @@
         width: 550px;
         object-fit: cover;
         object-position: center;
+    }
+}
+
+.hero__secondary {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    gap: $size-11;
+
+    &__heading {
+        color: $hero-font-color;
+        font-family: $hero-heading-font-family;
+        font-size: $hero-heading-font-size;
+        font-weight: $hero-heading-font-weight;
+        line-height: $hero-line-height;
+    }
+
+    &__image {
+        border-radius: $hero-image-border-radius;
+        flex-shrink: 0;
+        height: 514px;
+        object-fit: cover;
+        object-position: center;
+        width: 1120px;
     }
 }
