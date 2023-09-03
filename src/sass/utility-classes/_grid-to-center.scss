@@ -1,6 +1,6 @@
 @use "../abstracts/" as *;
 
-.center {
+.grid-to-center {
     display: grid;
     gap: $grid-gap;
     place-content: center;
