@@ -38,7 +38,7 @@ $heading-font-family: $font-family-accent;
 $heading-color-default: $color-primary-800;
 $heading-font-weight: $font-weight-bold;
 $heading-letter-spacing: $letter-spacing-loose;
-$heading-line-height: 1;
+$heading-line-height: 108.9%;
 $heading-text-transform: none;
 
 $heading-1-font-size: $font-size-700;
@@ -91,7 +91,7 @@ $hero-heading-font-family: $font-family-accent;
 $hero-heading-font-size: $font-size-900;
 $hero-heading-font-weight: $heading-font-weight;
 $span-accent-font-color: $color-accent-600;
-$hero-line-height: 108.9%;
+$hero-line-height: $heading-line-height;
 $hero-image-border-radius: $border-radius-1;
 $hero-text-padding-block: $size-11;
 $hero-padding-block: $size-14;

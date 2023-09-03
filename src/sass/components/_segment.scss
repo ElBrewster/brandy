@@ -13,8 +13,14 @@
     &__text-box {
         display: flex;
         flex-direction: column;
-        gap: $size-4;
+        gap: $segment-text-box-gap;
         justify-content: center;
+        width: 650px;
+
+        h2 {
+            width: 450px;
+        }
+
     }
 
     &__image {
