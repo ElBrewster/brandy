@@ -56,11 +56,11 @@ $flex-group-gap: $size-11;
 $section-padding-block: $size-12;
 $section-padding-block-mobile: $size-11;
 //-->consider adding clamp to these padding/padding blocks
-$container-min-margin-inline: $size-7;
+$container-min-margin-inline: $size-12;
 //margins on cell view are 1.625, so revisit ^
 $container-max-width: 60rem;
 $container-max-width-narrow: 40rem;
-$container-max-width-wide: 75rem;
+$container-max-width-wide: 70rem;
 
 // logo
 $logo-fill-default: $color-accent-500;
