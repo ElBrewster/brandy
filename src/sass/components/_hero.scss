@@ -32,12 +32,6 @@
     flex-direction: column;
     gap: $size-11;
 
-    &__image {
-        border-radius: $hero-image-border-radius;
-        height: 514px;
-        width: 1120px;
-    }
-
     &__button {
         border-radius: $size-8;
         font-family: $hero-heading-font-family;
