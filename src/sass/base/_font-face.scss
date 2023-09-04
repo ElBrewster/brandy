@@ -7,6 +7,14 @@
 }
 
 @font-face {
+  font-family: "Montserrat";
+  font-weight: 400;
+  font-display: swap;
+  src: url("/fonts/montserrat-regular-webfont.woff") format("woff2"),
+    url("/fonts/montserrat-regular-webfont.woff2") format("woff");
+}
+
+@font-face {
     font-family: "Inter";
     font-weight: 700;
     font-display: swap;
