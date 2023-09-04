@@ -50,8 +50,13 @@
                 font-size: $segment-list-font-size;
                 width: 530px;
 
+                .list-item {
+                    border-bottom: 1px solid $segment-color-inverse;
+                    padding-block: $size-3;
+                }
+
                 & div svg {
-                    align-self: flex-end;
+                    align-self: center;
                 }
             }
 
