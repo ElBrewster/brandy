@@ -48,18 +48,16 @@
                 flex-direction: column;
                 font-family: $font-family-accent;
                 font-size: $segment-list-font-size;
-            
-                .list-item {
-                    display: flex;
-                }
+                width: 530px;
             }
 
         }
 
         &__right {
-            display:block;
+            display: block;
             font-family: $font-family-base;
-            width: 400px;
+            line-height: $segment-text-line-height;
+            min-width: 400px;
         }
     }
 }

@@ -49,6 +49,7 @@ $heading-3-font-size: $font-size-650;
 $heading-3-color: $heading-color-default;
 $heading-3-bottom-padding: $size-4;
 
+$text-line-height: 170%;
 // layout
 $grid-gap: $size-9;
 $flex-group-gap: $size-11;
@@ -116,6 +117,7 @@ $segment-flex-gap: $flex-row-gap;
 $segment-text-box-gap: $text-box-gap;
 $segment-list-font-family: $font-family-accent;
 $segment-list-font-size: $font-size-675;
+$segment-text-line-height: $text-line-height;
 
 // site footer
 $footer-background-color: $color-background-default;
@@ -135,7 +137,7 @@ $button-border-radius: $border-radius-2;
 $button-font-family: $font-family-base;
 $button-font-size: $font-size-500;
 $button-font-weight: $font-weight-default;
-$button-line-height: 170%;
+$button-line-height: $text-line-height;
 $button-padding: .5em 1em;
 $button-text-transform: none;
 
