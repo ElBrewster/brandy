@@ -27,6 +27,10 @@
         height: 400px;
         width: 400px;
     }
+
+    &__blue {
+        background-color: $color-primary-100;
+    }
 }
 
 .segment-inverse {

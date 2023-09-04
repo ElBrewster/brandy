@@ -1,0 +1,9 @@
+@use "../abstracts/" as *;
+
+.card-small {
+    align-content: flex-start;
+    background-color: $body-background-color;
+    display: flex;
+    flex-direction: column;
+
+}
