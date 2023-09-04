@@ -48,10 +48,9 @@
                 flex-direction: column;
                 font-family: $font-family-accent;
                 font-size: $segment-list-font-size;
-                
-                .checkmark-empty {
-                    background-color: green;
-                    stroke: white;
+            
+                .list-item {
+                    display: flex;
                 }
             }
 
