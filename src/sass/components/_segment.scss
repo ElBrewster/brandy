@@ -49,13 +49,19 @@
                 font-family: $font-family-accent;
                 font-size: $segment-list-font-size;
                 width: 530px;
+
+                & div svg {
+                    align-self: flex-end;
+                }
             }
 
         }
 
         &__right {
-            display: block;
+            display: flex;
+            flex-direction: column;
             font-family: $font-family-base;
+            gap: $text-box-gap;
             line-height: $segment-text-line-height;
             min-width: 400px;
         }
