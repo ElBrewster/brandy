@@ -70,6 +70,7 @@
             flex-direction: column;
             font-family: $font-family-base;
             gap: $text-box-gap;
+            justify-content: center;
             line-height: $segment-text-line-height;
             min-width: 400px;
         }
