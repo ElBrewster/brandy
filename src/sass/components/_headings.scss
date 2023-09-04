@@ -25,3 +25,10 @@
     $heading-4-color
   );
 }
+
+.span-heading {
+  @include heading(
+    $heading-5-font-size,
+    $heading-1-color
+  );
+}

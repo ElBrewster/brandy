@@ -51,6 +51,7 @@ $heading-3-color: $heading-color-default;
 $heading-3-bottom-padding: $size-4;
 $heading-4-font-size: $font-size-900;
 $heading-4-color: $color-primary-800;
+$heading-5-font-size: $font-size-675;
 
 $text-line-height: 170%;
 // layout
@@ -162,7 +163,6 @@ $link-button-color: $color-primary-600;
 // cards
 $card-flow-spacing: $size-2;
 $card-spacing: $size-6;
-// $card-shadow: $box-shadow-1;
 $card-border-radius: $border-radius-3;
 $card-background-default: $color-primary-100;
 $card-color-default: $body-text-color;
@@ -170,7 +170,7 @@ $card-font-family: $font-family-accent;
 $card-line-height: 1.25;
 $card-heading-color-default: $card-color-default;
 $card-heading-font-size: $font-size-600;
-$card-body-padding: $size-7;
+$card-body-padding: $size-6;
 $card-heading-accent: $color-accent-500;
 
 // custom grid component
