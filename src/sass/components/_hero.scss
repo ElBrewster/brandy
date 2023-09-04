@@ -15,13 +15,8 @@
         padding-block: $hero-text-padding-block;
 
         .hero__heading {
-            color: $hero-font-color;
             display: flex;
             flex-direction: column;
-            font-family: $hero-heading-font-family;
-            font-size: $hero-heading-font-size;
-            font-weight: $hero-heading-font-weight;
-            line-height: $hero-line-height;
 
             .span-accent {
                 color: $span-accent-font-color;
@@ -44,14 +39,6 @@
     display: flex;
     flex-direction: column;
     gap: $size-11;
-
-    &__heading {
-        color: $hero-font-color;
-        font-family: $hero-heading-font-family;
-        font-size: $hero-heading-font-size;
-        font-weight: $hero-heading-font-weight;
-        line-height: $hero-line-height;
-    }
 
     &__image {
         border-radius: $hero-image-border-radius;
