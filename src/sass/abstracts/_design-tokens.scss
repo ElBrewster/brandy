@@ -22,6 +22,7 @@ $border-radius-1: $size-4;
 $border-radius-2: $size-1;
 $border-radius-3: $size-3;
 $border-radius-4: 1000px;
+$border-radius-5: 123.25px;
 
 // body
 $body-font-family: $font-family-base;
@@ -103,6 +104,7 @@ $hero-margin-inline: $size-15;
 // about box component
 $image-border-radius-upleft: $border-radius-4;
 $image-border-radius-upright: $border-radius-4;
+$image-border-radius-bubble: $border-radius-5;
 $about-image-background: $color-primary-200;
 $about-background: $color-primary-800;
 $about-text-color: $color-primary-100;
