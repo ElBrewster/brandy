@@ -9,6 +9,7 @@
         gap: $segment-flex-gap;
     }
 
+
     &__text-box {
         display: flex;
         flex-direction: column;
@@ -20,12 +21,6 @@
             width: 450px;
         }
 
-    }
-
-    &__image {
-        background-color: $segment-image-background-color;
-        height: 400px;
-        width: 400px;
     }
 
     &__blue {

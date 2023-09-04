@@ -2,7 +2,7 @@
 
 // use photo-fit utility class for object-fit and object-cover
 
-.about__image {
+.img__about {
     background-color: $about-image-background;
     border-top-left-radius: $image-border-radius-upleft;
     border-top-right-radius: $image-border-radius-upright;
@@ -11,7 +11,7 @@
 }
 
 
-.segment__image {
+.img__phone__circle {
     background-color: $segment-image-background-color;
     height: 400px;
     width: 400px;
@@ -23,4 +23,16 @@
     border-bottom-right-radius: $border-radius-5;
     height: 370px;
     width: 247px;
+}
+
+.img__hero__main {
+    border-radius: $hero-image-border-radius;
+    height: 438px;
+    width: 550px;
+}
+
+.img__hero__page2 {
+    border-radius: $hero-image-border-radius;
+    height: 514px;
+    width: 1120px;
 }
