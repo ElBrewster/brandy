@@ -2,3 +2,9 @@
     display: flex;
     justify-content: space-between;
 }
+
+.flex-just-between-vert {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
