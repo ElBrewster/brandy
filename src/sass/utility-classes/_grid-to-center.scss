@@ -5,3 +5,9 @@
     gap: $grid-gap;
     place-content: center;
 }
+
+.grid-to-center-gap2 {
+    display: grid;
+    gap: $grid-gap-4;
+    place-content: center;
+}
