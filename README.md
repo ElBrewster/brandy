@@ -1,6 +1,6 @@
 # Brand Boosters Exercise from Beyond CSS
 
-This repo is my implementation of the final project for Kevin Powell's course Beyond CSS. The figma file can be found [here](https://www.figma.com/file/yFI9a6XdwNfwUNRkcCX0GZ/BrandBoosters?node-id=7%3A551&mode=dev). I've used my own starter Sass template based on what I learned and implemented form his course. 10/10 I do recommend it!
+This repo is my implementation of the final project for Kevin Powell's course Beyond CSS. The figma file I used as reference can be found [here](https://www.figma.com/file/yFI9a6XdwNfwUNRkcCX0GZ/BrandBoosters?node-id=7%3A551&mode=dev). I've used my own starter Sass template based on what I learned and experienced during his course. 10/10 I do recommend it!
 
 ## Stills
 
