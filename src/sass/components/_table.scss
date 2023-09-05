@@ -53,7 +53,7 @@
         align-items: center;
         display: grid;
         font-family: $table-font-family;
-        grid-template-columns: repeat(4, auto);
+        grid-template-columns: repeat(4, 1fr);
         line-height: $body-line-height;
     
         &-cell {
@@ -71,7 +71,7 @@
 .table-grid-head {
     display: grid;
     font-family: $table-font-family;
-    grid-template-columns: repeat(4, auto);
+    grid-template-columns: repeat(4, 1fr);
     line-height: $body-line-height;
 
     &-cell {
