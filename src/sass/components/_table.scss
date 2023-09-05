@@ -32,6 +32,8 @@
         font-family: $table-font-family;
         grid-template-columns: repeat(4, 1fr);
         line-height: $body-line-height;
+        // padding-block: $table-padding-block;
+
         .cell-text {
             align-self: center;
             text-align: start;
