@@ -6,19 +6,35 @@
     font-size: $table-font-size;
     min-width: 1010px;
     min-height: 386px;
-
+    
     &__tr {
-        padding: $td-padding;
+        display: flex;
+
+        &__th-first {
+            display: block;
+            max-width: 200px;
+            padding: none;
+            text-align: left;
+        }
+
+        &__th {
+            display: flex;
+            flex-direction: column;
+            padding-inline: $th-padding-inline;
+        }
+        
+        &__td {
+            padding-block: $td-padding;
+            border-bottom: $tr-border-bottom;
+        }
     }
 
     &__icon {
         min-width: $td-icon-width;
         max-width: $td-icon-width;
+        text-align: center;
     }
 
-    &__th {
-        padding-inline: $th-padding-inline;
-    }
 
     &__th-left {
         padding-right: $th-padding-right;
@@ -26,5 +42,22 @@
 
     &__th-right {
         padding-left: $th-padding-left;
+    }
+}
+
+.table-grid {
+    display: grid;
+    font-family: $table-font-family;
+    grid-template-columns: repeat(4, auto);
+    line-height: $body-line-height;
+
+    &-cell {
+       background-color: gray;
+
+        p {
+            align-items: center;
+            display: flex;
+            flex-direction: column;
+        }
     }
 }
