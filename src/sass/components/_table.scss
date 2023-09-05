@@ -8,7 +8,6 @@
     max-width: 1010px;
     min-width: 850px;
 
-
     &-cell {
        background-color: $body-background-color;
 
@@ -32,7 +31,6 @@
         font-family: $table-font-family;
         grid-template-columns: repeat(4, 1fr);
         line-height: $body-line-height;
-        // padding-block: $table-padding-block;
 
         .cell-text {
             align-self: center;
