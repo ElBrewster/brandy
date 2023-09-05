@@ -3,21 +3,37 @@
 .card {
   align-content: space-between;
   align-items: center;
-  display: grid;
-  gap: $card-flow-spacing;
-  padding: $card-body-padding;
   background-color: $card-background-default;
-  font-family: $card-font-family;
-  color: $card-color-default;
-  line-height: $card-line-height;
   border-radius: $card-border-radius;
+  color: $card-color-default;
+  display: grid;
+  font-family: $card-font-family;
+  gap: $card-flow-spacing;
   height: 600px;
   justify-items: center;
+  line-height: $card-line-height;
+  padding: $card-body-padding;
+  width: 315px;
 
   &__top-card {
     display: grid;
     gap: $text-box-gap;
     justify-items: center;
+    
+    .small-text {
+      font-size: $font-size-200;
+    }
   }
+  &__checked-row {
+    display: flex;
+    gap: $size-2;
 
+    .icon {
+      font-size: $size-6;
+      min-height: $size-6;
+      max-height: $size-6;
+      min-width: $size-6;
+      max-width: $size-6;
+    }
+  }
 }
