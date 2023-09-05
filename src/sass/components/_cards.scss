@@ -24,6 +24,13 @@
       font-size: $font-size-200;
     }
   }
+
+  &__body {
+    display: flex;
+    flex-direction: column;
+    gap: $size-4;
+  }
+
   &__checked-row {
     display: flex;
     gap: $size-2;
