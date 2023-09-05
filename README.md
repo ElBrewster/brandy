@@ -2,6 +2,32 @@
 
 This repo is my implementation of the final project for Kevin Powell's course Beyond CSS. The figma file can be found [here](https://www.figma.com/file/yFI9a6XdwNfwUNRkcCX0GZ/BrandBoosters?node-id=7%3A551&mode=dev). I've used my own starter Sass template based on what I learned and implemented form his course. 10/10 I do recommend it!
 
+## Stills
+
+<img width="963" alt="hero" src="https://github.com/ElBrewster/brandy/assets/113723085/7daa5798-c581-4c2d-bf46-be08fcdf2bc9">
+
+<img width="968" alt="about" src="https://github.com/ElBrewster/brandy/assets/113723085/5980d6da-6b86-4a5c-aa3c-0f1420325353">
+
+<img width="1919" alt="features" src="https://github.com/ElBrewster/brandy/assets/113723085/77849c31-c72b-4dc1-a24c-8d3795dcb8c6">
+
+<img width="1919" alt="page 2 hero" src="https://github.com/ElBrewster/brandy/assets/113723085/dde777c0-340b-4ff0-aa34-6ee49799cc0b">
+
+<img width="959" alt="what we can do" src="https://github.com/ElBrewster/brandy/assets/113723085/21a0d61c-035a-4e53-9066-9a649e9ab9c1">
+
+<img width="1918" alt="benefits" src="https://github.com/ElBrewster/brandy/assets/113723085/9b239be7-1094-4dfa-8963-e3a291c39cd5">
+
+<img width="967" alt="feature list" src="https://github.com/ElBrewster/brandy/assets/113723085/29694daf-d2dc-489d-b369-2db0d50b1b9b">
+
+<img width="1915" alt="testimonial" src="https://github.com/ElBrewster/brandy/assets/113723085/0adeeb51-f0b3-4363-8ec7-c654a91f5459">
+
+<img width="1918" alt="flexible plans grid" src="https://github.com/ElBrewster/brandy/assets/113723085/44931a5c-b761-44b2-a620-e3b32139f14b">
+
+<img width="1913" alt="Compare plans grid" src="https://github.com/ElBrewster/brandy/assets/113723085/ba350b55-0b6e-4143-88e0-7c279169ec16">
+
+<img width="1915" alt="contact" src="https://github.com/ElBrewster/brandy/assets/113723085/3d0b7f78-b01f-42f2-bcef-2db21d7adfa4">
+
+
+
 ## How To Use This Template
 
 ###### `cmd + shift + f` !!!
