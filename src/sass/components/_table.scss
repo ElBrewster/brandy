@@ -1,78 +1,13 @@
 @use "../abstracts/" as *;
 
-.table {
-    display: block;
-    font-family: $table-font-family;
-    font-size: $table-font-size;
-    min-width: 1010px;
-    min-height: 386px;
-    
-    &__tr {
-        display: flex;
-
-        &__th-first {
-            display: block;
-            max-width: 200px;
-            padding: none;
-            text-align: left;
-        }
-
-        &__th {
-            display: flex;
-            flex-direction: column;
-            padding-inline: $th-padding-inline;
-        }
-        
-        &__td {
-            padding-block: $td-padding;
-            border-bottom: $tr-border-bottom;
-        }
-    }
-
-    &__icon {
-        min-width: $td-icon-width;
-        max-width: $td-icon-width;
-        text-align: center;
-    }
-
-
-    &__th-left {
-        padding-right: $th-padding-right;
-    }
-
-    &__th-right {
-        padding-left: $th-padding-left;
-    }
-}
-
-.compare-table {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(min(1000px, 100%), 1fr));
-
-    .table-grid {
-        align-items: center;
-        display: grid;
-        font-family: $table-font-family;
-        grid-template-columns: repeat(4, 1fr);
-        line-height: $body-line-height;
-    
-        &-cell {
-           background-color: $body-background-color;
-    
-            p {
-                align-items: center;
-                display: flex;
-                flex-direction: column;
-            }
-        }
-    }
-}
-
 .table-grid-head {
     display: grid;
     font-family: $table-font-family;
     grid-template-columns: repeat(4, 1fr);
     line-height: $body-line-height;
+    max-width: 1010px;
+    min-width: 850px;
+
 
     &-cell {
        background-color: $body-background-color;
@@ -82,5 +17,39 @@
             display: flex;
             flex-direction: column;
         }
+    }
+}
+
+.compare-table {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(min(1000px, 100%), 1fr));
+    max-width: 1010px;
+    min-width: 850px;
+
+    .table-grid {
+        justify-items: center;
+        display: grid;
+        font-family: $table-font-family;
+        grid-template-columns: repeat(4, 1fr);
+        line-height: $body-line-height;
+        .cell-text {
+            align-self: center;
+            text-align: start;
+            width: 100%;
+        }
+        
+        &-cell {
+            align-items: center;
+            background-color: $body-background-color;
+            
+            
+            &-svg {
+                align-content: center;
+            }
+        }
+    }
+    
+    .table-grid:where(:not(:last-child)) {
+        border-block-end: $table-border-bottom;
     }
 }
