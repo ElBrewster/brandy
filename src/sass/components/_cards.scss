@@ -1,6 +1,7 @@
 @use "../abstracts/" as *;
 
 .card {
+  align-content: space-between;
   align-items: center;
   display: grid;
   gap: $card-flow-spacing;
@@ -13,5 +14,10 @@
   height: 600px;
   justify-items: center;
 
+  &__top-card {
+    display: grid;
+    gap: $text-box-gap;
+    justify-items: center;
+  }
 
 }

@@ -161,23 +161,24 @@ $link-button-background-color: $color-neutral-100;
 $link-button-color: $color-primary-600;
 
 // cards
-$card-flow-spacing: $size-2;
-$card-spacing: $size-6;
-$card-border-radius: $border-radius-3;
 $card-background-default: $color-primary-100;
+$card-body-padding: $size-6;
+$card-border-radius: $border-radius-3;
 $card-color-default: $body-text-color;
+$card-flow-spacing: $size-2;
 $card-font-family: $font-family-accent;
-$card-line-height: 1.25;
+$card-heading-accent: $color-accent-500;
 $card-heading-color-default: $card-color-default;
 $card-heading-font-size: $font-size-600;
-$card-body-padding: $size-6;
-$card-heading-accent: $color-accent-500;
+$card-line-height: 1.25;
+$card-spacing: $size-6;
 
 // custom grid component
 
 $grid-card-padding: $size-6;
 $grid-card-border-radius: $border-radius-1;
 $grid-card-text-size: $size-4;
+
 $grid-link-pink: $color-extra-700;
 $grid-link-yellow: $color-extra-650;
 $grid-link-green: $color-accent-800;
