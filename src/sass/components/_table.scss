@@ -1,0 +1,30 @@
+@use "../abstracts/" as *;
+
+.table {
+    display: block;
+    font-family: $table-font-family;
+    font-size: $table-font-size;
+    min-width: 1010px;
+    min-height: 386px;
+
+    &__tr {
+        padding: $td-padding;
+    }
+
+    &__icon {
+        min-width: $td-icon-width;
+        max-width: $td-icon-width;
+    }
+
+    &__th {
+        padding-inline: $th-padding-inline;
+    }
+
+    &__th-left {
+        padding-right: $th-padding-right;
+    }
+
+    &__th-right {
+        padding-left: $th-padding-left;
+    }
+}
