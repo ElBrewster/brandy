@@ -1,3 +1,5 @@
+@use "../abstracts/" as *;
+
 .flex-just-between {
     display: flex;
     justify-content: space-between;
@@ -6,5 +8,13 @@
 .flex-just-around-vert {
     display: flex;
     flex-direction: column;
+    justify-content: space-around;
+}
+
+.flex-just-around-vert2 {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    gap: $flex-row-gap;
     justify-content: space-around;
 }

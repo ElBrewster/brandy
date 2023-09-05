@@ -11,3 +11,17 @@
     gap: $grid-gap-4;
     place-content: center;
 }
+
+.grid-to-center-gap3 {
+    justify-items: center;
+    display: grid;
+    gap: $size-10;
+    place-content: center;
+}
+
+.grid-to-center-gap4 {
+    justify-items: center;
+    display: grid;
+    gap: $text-box-gap;
+    place-content: center;
+}
