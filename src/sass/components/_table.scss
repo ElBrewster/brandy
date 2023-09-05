@@ -45,14 +45,37 @@
     }
 }
 
-.table-grid {
+.compare-table {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(min(1000px, 100%), 1fr));
+
+    .table-grid {
+        align-items: center;
+        display: grid;
+        font-family: $table-font-family;
+        grid-template-columns: repeat(4, auto);
+        line-height: $body-line-height;
+    
+        &-cell {
+           background-color: $body-background-color;
+    
+            p {
+                align-items: center;
+                display: flex;
+                flex-direction: column;
+            }
+        }
+    }
+}
+
+.table-grid-head {
     display: grid;
     font-family: $table-font-family;
     grid-template-columns: repeat(4, auto);
     line-height: $body-line-height;
 
     &-cell {
-       background-color: gray;
+       background-color: $body-background-color;
 
         p {
             align-items: center;
