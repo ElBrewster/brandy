@@ -1,0 +1,9 @@
+@use "../abstracts/" as *;
+
+.scroll {
+    overflow-x: scroll;
+    scrollbar-color: $scrollbar-color;
+    scroll-snap-align: start;
+    scrollbar-width: $scrollbar-width;
+    padding: 0;
+}
