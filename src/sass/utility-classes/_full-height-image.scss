@@ -3,7 +3,22 @@
 // images full height that need to get pulled into the padding
 // put in a div since grid/flex will influence the height of an image
 // a div wrapper will keep it from being a flex/grid item
-.full-height-image {
-    object-fit: cover;
-    height: 100%;
+.full-height-image {    
+    &[data-position="right"] {
+        margin-bottom: calc($section-padding-block * -1);
+    }
+    
+    &[data-position="left"] {
+        margin-top: calc($section-padding-block * -1);
+    }
+    img {
+        object-fit: cover;
+        height: 100% ;
+    }
 }
+
+.fill-margin-block {
+    margin-top: calc($section-padding-block * -1);
+    margin-bottom: calc($section-padding-block * -1);
+}
+// ^ pulls image into both margins to be flush with block-start and block-end edges
