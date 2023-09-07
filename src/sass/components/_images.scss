@@ -8,11 +8,6 @@
     border-top-right-radius: $image-border-radius-upright;
 }
 
-.img__base {
-    object-fit: cover;
-    height: 100%;
-}
-
 .img__phone__circle {
     background-color: $segment-image-background-color;
     height: 400px;
