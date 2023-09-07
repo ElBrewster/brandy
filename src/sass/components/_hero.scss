@@ -1,5 +1,11 @@
 @use "../abstracts/" as *;
 .hero {
+    &__image {
+        object-fit: cover;
+        height: 100%;
+        border-radius: $hero-image-border-radius;
+
+    }
 
     .container-text {
         display: flex;
