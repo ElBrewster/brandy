@@ -56,6 +56,7 @@ $heading-5-font-size: $font-size-675;
 $text-line-height: 170%;
 // layout
 $grid-gap: $size-9;
+$gap-even-columns: $size-100;
 $flex-group-gap: $size-11;
 $grid-gap-4: $flex-group-gap;
 $text-box-gap: $size-4;
@@ -64,7 +65,7 @@ $flex-row-gap: $size-12;
 $section-padding-block: $size-12;
 $section-padding-block-mobile: $size-11;
 //-->consider adding clamp to these padding/padding blocks
-$container-min-margin-inline: $size-12;
+$container-min-margin-inline: $size-6;
 //margins on cell view are 1.625, so revisit ^
 $container-max-width: 60rem;
 $container-max-width-narrow: 40rem;

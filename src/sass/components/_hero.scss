@@ -1,18 +1,12 @@
 @use "../abstracts/" as *;
 .hero {
-    align-items: center;
-    display: flex;
-    gap: $size-11;
-    justify-content: space-between;
-    padding-block: $hero-padding-block;
 
     .container-text {
         display: flex;
         flex-direction: column;
         gap: $size-4;
-        justify-content: space-between;
+        justify-content: center;
         max-width: 490px;
-        padding-block: $hero-text-padding-block;
 
         .hero__heading {
             display: flex;
@@ -22,7 +16,13 @@
                 color: $span-accent-font-color;
                 line-height: $hero-line-height;
             }
+
         }
+
+        .hero__text {
+            color: $color-neutral-600;
+        }
+
     }
 }
 
