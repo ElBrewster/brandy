@@ -6,10 +6,12 @@
     background-color: $about-image-background;
     border-top-left-radius: $image-border-radius-upleft;
     border-top-right-radius: $image-border-radius-upright;
-    height: 512px;
-    width: 406px;
 }
 
+.img__base {
+    object-fit: cover;
+    height: 100%;
+}
 
 .img__phone__circle {
     background-color: $segment-image-background-color;

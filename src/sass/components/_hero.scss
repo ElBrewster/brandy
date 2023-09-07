@@ -7,28 +7,19 @@
 
     }
 
-    .container-text {
+    .hero__heading {
         display: flex;
         flex-direction: column;
-        gap: $size-4;
-        justify-content: center;
-        max-width: 490px;
 
-        .hero__heading {
-            display: flex;
-            flex-direction: column;
-
-            .span-accent {
-                color: $span-accent-font-color;
-                line-height: $hero-line-height;
-            }
-
+        .span-accent {
+            color: $span-accent-font-color;
+            line-height: $hero-line-height;
         }
 
-        .hero__text {
-            color: $color-neutral-600;
-        }
+    }
 
+    .hero__text {
+        color: $color-neutral-600;
     }
 }
 
