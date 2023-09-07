@@ -1,0 +1,9 @@
+@use "../abstracts/" as *;
+
+// images full height that need to get pulled into the padding
+// put in a div since grid/flex will influence the height of an image
+// a div wrapper will keep it from being a flex/grid item
+.full-height-image {
+    object-fit: cover;
+    height: 100%;
+}
