@@ -25,3 +25,10 @@
     gap: $text-box-gap;
     place-content: center;
 }
+
+.grid-to-center-footer {
+    justify-items: center;
+    display: grid;
+    gap: $footer-grid-gap;
+    place-content: center;
+}
