@@ -1,39 +1,60 @@
 @use "../abstracts/" as *;
+
+.full-height-image {
+  &[data-position="right"] {
+    margin-bottom: calc($section-padding-block * -1);
+  }
+  &[data-position="left"] {
+    margin-top: calc($section-padding-block * -1);
+  }
+
+  @include mq(medium) {
+    height: calc((100% + ($section-padding-block * 2)) - $space-top);
+    margin-top: calc($section-padding-block * -1);
+    transform: translateY($space-top);
+  }
+
+  img {
+    object-fit: cover;
+    height: 100%;
+  }
+}
 // rename full-height-column ?
 
 
 // images full height that need to get pulled into the padding
 // put in a div since grid/flex will influence the height of an image
 // a div wrapper will keep it from being a flex/grid item
-.full-height-image {    
-    &[data-position="right"] {
-        margin-bottom: calc($section-padding-block * -1);
-    }
+// .full-height-image {    
+//     &[data-position="right"] {
+//         margin-bottom: calc($section-padding-block * -1);
+//     }
     
-    &[data-position="left"] {
-        margin-top: calc($section-padding-block * -1);
-    }
+//     &[data-position="left"] {
+//         margin-top: calc($section-padding-block * -1);
+//     }
 
-    @include mq(medium) {
-        height: calc(
-            (100% + $section-padding-block * 2) 
-              - var(--space-top, 0px) 
-              - var(--space-bottom, 0px));
+//     @include mq(medium) {
+//         height: calc(
+//             (100% + $section-padding-block * 2) 
+//               - var(--space-top, 0px) 
+//               - var(--space-bottom, 0px));
 
-        margin-top: calc($section-padding-block * -1);
+//         margin-top: calc($section-padding-block * -1);
         
-        transform: translateY(
-            calc((var(--space-top, 0px) * 0.5) 
-            + (var(--space-bottom, 0px) * -0.5)));
-    }
-    img {
-        object-fit: cover;
-        height: 100% ;
-    }
-}
+//         transform: translateY(
+//             calc((var(--space-top, 0px) * 0.5) 
+//             + (var(--space-bottom, 0px) * -0.5)));
+//     }
 
-.fill-margin-block {
-    margin-top: calc($section-padding-block * -1);
-    margin-bottom: calc($section-padding-block * -1);
-}
+//     img {
+//         object-fit: cover;
+//         height: 100% ;
+//     }
+// }
+
+// .fill-margin-block {
+//     margin-top: calc($section-padding-block * -1);
+//     margin-bottom: calc($section-padding-block * -1);
+// }
 // ^ pulls image into both margins to be flush with block-start and block-end edges
