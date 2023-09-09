@@ -5,24 +5,29 @@
     font-size: $grid-card-text-size;
     gap: $grid-card-padding;
     grid-template-columns: 1fr;
-    @include mq(medium) {
-        
-        grid-template-columns: repeat(3, 1fr);
+
     
+    @include mq(medium) {
+        grid-template-columns: repeat(3, 1fr);
+        
         & > :nth-child(2),
         & > :nth-child(3) {
-          grid-column: span 2;
+            grid-column: span 2;
         }
-      
+
         p {
-          max-width: 32ch;
+            width: 32ch;
         }
     }
 
     &__green-card {
-        @include icon-card($color-accent-200, 60%);
+        @include icon-card($color-accent-200, 200px);
         background-image: url("/assets/book.svg");
-        background-position: bottom -55px right -15px;
+        background-position: 90% 140%;
+
+        @include mq(medium) {
+            background-position: 90% 175%;
+        }
 
         & .heading-3 {
             padding-bottom: $heading-3-bottom-padding;
@@ -31,37 +36,42 @@
     }
     
     &__yellow-card {
-        @include icon-card($color-extra-150, 65%);
+        @include icon-card($color-extra-150, 320px);
         background-image: url("/assets/advertising-icon.svg");
-        background-position: bottom 120% right -55%;
+        background-position: 210% 150%;
+
+        @include mq(medium) {
+            background-position: 100% 300%;
+        }
         
         & .heading-3 {
             padding-bottom: $heading-3-bottom-padding;
-        }
-        
-        p {
-            width: 55%;
         }
     }
 
     &__pink-card {
-        @include icon-card($color-extra-200, 60%);
+        @include icon-card($color-extra-200, 250px);
         background-image: url("/assets/social-media-icon.svg");
-        background-position: bottom 50% right -10%;
+        background-position: 100% 210%;
+
+        @include mq(medium) {
+            background-position: 105% 50%;
+        }
 
         & .heading-3 {
             padding-bottom: $heading-3-bottom-padding;
         }
 
-        p {
-            width: 55%;
-        }
     }
 
     &__blue-card {
-        @include icon-card($color-extra-250, 60%);
+        @include icon-card($color-extra-250, 175px);
         background-image: url("/assets/analytics-icon.svg");
-        background-position: bottom -90px right -10%;
+        background-position: 90% 130%;
+
+        @include mq(medium) {
+            background-position: 120% 175%;
+        }
 
         & .heading-3 {
             padding-bottom: $heading-3-bottom-padding;
