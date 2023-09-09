@@ -4,10 +4,19 @@
     display: grid;
     font-size: $grid-card-text-size;
     gap: $grid-card-padding;
-
-    @media (max-width: 600px) {
-        grid-template-columns: repeat(auto-fit, minmax(min(250px, 100%), 1fr));
-
+    grid-template-columns: 1fr;
+    @include mq(medium) {
+        
+        grid-template-columns: repeat(3, 1fr);
+    
+        & > :nth-child(2),
+        & > :nth-child(3) {
+          grid-column: span 2;
+        }
+      
+        p {
+          max-width: 32ch;
+        }
     }
 
     &__green-card {
