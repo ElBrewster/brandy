@@ -1,9 +1,9 @@
-import htmlPurge from "vite-plugin-html-purgecss";
-import { resolve } from "path";
 import { defineConfig } from "vite";
+import htmlPurge from "vite-plugin-purgecss";
+import { resolve } from "path";
 
 export default defineConfig({
-  plugins: [htmlPurge()],
+  plugins: [ htmlPurge([htmlPurge()])],
   build: {
     rollupOptions: {
       input: {
