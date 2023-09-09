@@ -6,10 +6,7 @@
     background-color: $about-image-background;
     border-top-left-radius: $image-border-radius-upleft;
     border-top-right-radius: $image-border-radius-upright;
-    height: 512px;
-    width: 406px;
 }
-
 
 .img__phone__circle {
     background-color: $segment-image-background-color;
@@ -23,12 +20,6 @@
     border-bottom-right-radius: $border-radius-5;
     height: 370px;
     width: 247px;
-}
-
-.img__hero__main {
-    border-radius: $hero-image-border-radius;
-    height: 438px;
-    width: 550px;
 }
 
 .img__hero__page2 {

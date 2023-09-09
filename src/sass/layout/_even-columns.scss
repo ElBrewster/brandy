@@ -2,7 +2,7 @@
 
 .even-columns {
     display: grid;
-    gap: var(--grid-gap, $grid-gap);
+    gap: var(--grid-gap, $gap-even-columns);
 
     //switching from a right to left composition to vertically stacked items:
     @include mq(medium) {

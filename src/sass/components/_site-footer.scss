@@ -17,6 +17,11 @@
   
   .footer-border {
     border-bottom: 1px solid $hr-color;
+    min-width: 65vw;
+
+    @media (max-width: 1000px) {
+      min-width: 90vw;
+    }
   }
 
   small {

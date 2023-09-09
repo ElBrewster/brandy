@@ -26,27 +26,42 @@
     </header>
 
     <main>
-      <div class="hero | container" data-type="wide">
-        <div class="container-text">
-          <h1 class="hero__heading heading-4"><span>Welcome to </span><span class="span-accent">BrandBoosters</span></h1>
-          <p>Dedicated to boosting your brand’s visibility and success that uses the latest strategies & techniques to help you reach your target audience and achieve your goals.
-          </p>
-          <div>
-            <button class="button" data-type="primary">Join now</button>
-            <button class="button" data-type="link">Learn more</button>
+      <div class="hero | section">
+        <div class="container" data-type="wide">
+          <div class="even-columns vertically-centered">
+            <div class="flow">
+              <h1 class="hero__heading heading-4"><span>Welcome to </span><span class="span-accent">BrandBoosters</span></h1>
+              <p class="hero__text">Dedicated to boosting your brand’s visibility and success that uses the latest strategies & techniques to help you reach your target audience and achieve your goals.
+              </p>
+              <div>
+                <button class="button" data-type="primary">Join now</button>
+                <button class="button" data-type="link">Learn more</button>
+              </div>
+            </div>
+
+            <div>
+              <img class="hero__image" src="./public/assets/group-on-computer.webp" alt="Three people stand around an unbranded laptop in front of a blank yellow background brandishing black pencils. The masculine indivdual on the right pokes at the laptop with his pencil while the others display a more passive demeanor, pencils at rest. The mood is introspective.">
+            </div>
+            </div>
           </div>
         </div>
-        <img class="img__hero__main photo-fit" src="./public/assets/group-on-computer.webp" alt="Three people stand around an unbranded laptop in front of a blank yellow background brandishing black pencils. The masculine indivdual on the right pokes at the laptop with his pencil while the others display a more passive demeanor, pencils at rest. The mood is introspective.">
-      </div>
 
-      <section class="box__about">
-        <div class="box__flex | container">
-          <div class="box__text">
-            <h2 class="heading-2">About us</h2>
-            <p>BrandBoosters was founded with the mission of <span class="about-bold">helping businesses of all sizes</span> achieve their marketing goals by working closely with each client to <span class="about-bold">develop a customized strategy that delivers results.</span></p>
-            <button class="button" data-type="accent">Learn more about us</button>
+      <section class="box__about section">
+        <div class="container">
+          <div class="even-columns vertically-centered">
+            <div class="flow">
+              <h2 class="heading-2">About us</h2>
+              <p>BrandBoosters was founded with the mission of <span class="about-bold">helping businesses of all sizes</span> achieve their marketing goals by working closely with each client to <span class="about-bold">develop a customized strategy that delivers results.</span></p>
+              <button class="button" data-type="accent">Learn more about us</button>
+            </div>
+
+            <div 
+            class="full-height-image" 
+            data-position="right" 
+            >
+              <img class="img__about" src="./public/assets/girl-on-phone.webp" alt="A woman stands outside with her back facing the viewer holding her phone depicting a sunset. She is wearing glasses, earrings and a pink sweater.">
+            </div>
           </div>
-          <img class="img__about  photo-fit" src="./public/assets/girl-on-phone.webp" alt="A woman stands outside with her back facing the viewer holding her phone depicting a sunset. She is wearing glasses, earrings and a pink sweater.">
         </div>
       </section>
 
@@ -92,10 +107,10 @@
       </section>
     </main>
 
-    <footer class="site-footer mx-auto">
+    <footer class="site-footer">
       <section class="section">
-        <div class="container grid-to-center">
-          <nav class="nav flex-group">
+        <div class="grid-to-center-footer">
+          <nav aria-label="secondary navigation" class="nav flex-group mx-auto">
             <ul><a href="pricing.html">Pricing</a></ul>
             <ul><a href="about-us.html">About Us</a></ul>
             <ul><a href="#features">Features</a></ul>

@@ -3,26 +3,9 @@
 .box__about {
     background-color: $about-background;
     color: $about-text-color;
-    padding-top: 1.25rem;
-    
-    .box__flex {
-        align-items: center;
-        display: flex;
-        gap: $size-12;
-        justify-content: center;
 
-        .box__text {
-            align-items: flex-start;
-            display: flex;
-            flex-direction: column;
-            gap: $about-text-box-gap;
-            justify-content: space-between;
-            max-width: 481px;
-            padding-block: $hero-text-padding-block;
-
-            .about-bold {
-                font-weight: $font-weight-bold;
-            }
-        }
+    .about-bold {
+        font-weight: $font-weight-bold;
     }
+    
 }

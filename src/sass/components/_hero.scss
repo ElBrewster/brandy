@@ -1,28 +1,25 @@
 @use "../abstracts/" as *;
 .hero {
-    align-items: center;
-    display: flex;
-    gap: $size-11;
-    justify-content: space-between;
-    padding-block: $hero-padding-block;
+    &__image {
+        object-fit: cover;
+        height: 100%;
+        border-radius: $hero-image-border-radius;
 
-    .container-text {
+    }
+
+    .hero__heading {
         display: flex;
         flex-direction: column;
-        gap: $size-4;
-        justify-content: space-between;
-        max-width: 490px;
-        padding-block: $hero-text-padding-block;
 
-        .hero__heading {
-            display: flex;
-            flex-direction: column;
-
-            .span-accent {
-                color: $span-accent-font-color;
-                line-height: $hero-line-height;
-            }
+        .span-accent {
+            color: $span-accent-font-color;
+            line-height: $hero-line-height;
         }
+
+    }
+
+    .hero__text {
+        color: $color-neutral-600;
     }
 }
 

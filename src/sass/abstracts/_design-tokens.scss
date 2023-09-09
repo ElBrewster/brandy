@@ -5,6 +5,8 @@
 
 $prefix: "elb";
 
+$space-top: 2.2rem;
+$space-bottom: 0rem;
 $active-theme: $light;
 $enable-media-query-dark-mode: false;
 
@@ -56,6 +58,7 @@ $heading-5-font-size: $font-size-675;
 $text-line-height: 170%;
 // layout
 $grid-gap: $size-9;
+$gap-even-columns: $size-100;
 $flex-group-gap: $size-11;
 $grid-gap-4: $flex-group-gap;
 $text-box-gap: $size-4;
@@ -64,7 +67,7 @@ $flex-row-gap: $size-12;
 $section-padding-block: $size-12;
 $section-padding-block-mobile: $size-11;
 //-->consider adding clamp to these padding/padding blocks
-$container-min-margin-inline: $size-12;
+$container-min-margin-inline: $size-6;
 //margins on cell view are 1.625, so revisit ^
 $container-max-width: 60rem;
 $container-max-width-narrow: 40rem;
@@ -112,6 +115,7 @@ $about-image-background: $color-primary-200;
 $about-background: $color-primary-800;
 $about-text-color: $color-primary-100;
 $about-text-box-gap: $text-box-gap;
+$full-height-image: 2.1rem;
 
 // segment component & inverse (& white?)
 $segment-color: $color-neutral-600;
@@ -134,6 +138,7 @@ $footer-link-font-family: $body-font-family;
 $footer-link-text-decoration: none;
 $footer-fine-print: $font-size-200;
 $footer-fine-print-family: $body-font-family;
+$footer-grid-gap: $size-6;
 
 $hr-color: $color-neutral-100;
 
@@ -191,12 +196,8 @@ $grid-link-blue-hover: $color-extra-500;
 
 $table-font-family: $font-family-accent;
 $table-font-size: $body-font-size;
-$td-padding: $size-5;
-$td-icon-width: $size-95;
-$td-icon-width: $size-95;
-$th-padding-right: $size-95;
 $table-padding-block: $size-95;
-$th-padding-left: $size-95;
 $table-border-bottom: 1px solid $color-neutral-100;
-//but not last, where:(not: last-sibling) or sth like that?
-// $th-main-heading: heading-1;
+
+$scrollbar-color: $color-primary-600;
+$scrollbar-width: thin;

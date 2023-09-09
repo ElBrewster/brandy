@@ -12,12 +12,14 @@
   },
   "devDependencies": {
     "postcss-preset-env": "^9.1.1",
+    "purgecss": "^5.0.0",
     "sass": "^1.65.1",
     "typescript": "^5.0.2",
     "vite": "^4.4.5",
-    "vite-plugin-html-purgecss": "^0.1.1"
+    "vite-plugin-html-purgecss": "^0.1.1",
+    "vite-plugin-purgecss": "^0.2.12"
   },
   "dependencies": {
-    "vite-plugin-purgecss": "^0.2.12"
+    "path": "^0.12.7"
   }
 }
