@@ -18,5 +18,8 @@
     "vite": "^4.4.5",
     "vite-plugin-html-purgecss": "^0.1.1",
     "vite-plugin-purgecss": "^0.2.12"
+  },
+  "dependencies": {
+    "path": "^0.12.7"
   }
 }
